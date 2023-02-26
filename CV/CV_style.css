@@ -1,0 +1,137 @@
+*{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+body{
+	color-: black;
+	background-color: silver;
+	background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+	url(christopher-gower-m_HRfLhgABo-unsplash.jpg) no-repeat center center fixed;
+	/*Foto de Christopher Gower en Unsplash*/
+	background-size: cover;
+}
+
+.contenedor{
+	margin: auto;
+	width: 960px;
+	height: 1280px;
+	overflow: hidden;
+}
+
+.texto-chico{
+	margin: 20px 0;
+}
+
+.separador-superior{
+	font-family: 'Noto Sans Mongolian', sans-serif;
+	width: 300px;
+	height: 180px;
+	margin: 9px;
+	padding: 0px;
+	background-color: white;
+	float: left;
+	position: relative;
+}
+
+.separador-superior:after{
+	width: 98%;
+	height: 98%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	content:' ';
+	background: #000046;
+	filter: blur(5px);
+	z-index: -1;
+}
+
+.imagen{
+	background-color: none;
+	position: relative;
+	justify-content: center;
+	align-content: center;
+	width: 300px;
+	height: 180px;
+	margin: 9px;
+	padding: 0px;
+	float: left;
+	display: flex;
+}
+
+.separador-izquierdo{
+	background-color: white;
+	font-family: 'Shadows Into Light', cursive;
+	border-top: 5px dotted darkorange;
+	width: 200px;
+	height: 400px;
+	margin: 10px;
+	padding: 0px;
+	float: left;
+	position: relative;
+}
+
+.separador-izquierdo:after{
+	width: 98%;
+	height: 98%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	content:' ';
+	background: #000046;
+	filter: blur(5px);
+	z-index: -1;
+}
+
+.centro{
+	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+	border-top: 5px dotted darkorange;
+	width: 700px;
+	height: 400px;
+	margin: 10px;
+	padding: 0px;
+	float: right;
+	position: relative;
+}
+
+.centro:after{
+	width: 98%;
+	height: 98%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	content:' ';
+	background: #000046;
+	filter: blur(5px);
+	z-index: -1;
+}
+
+#foto-centrada{
+	border-radius: 80px;
+	width: 170px;
+	height: 170px;
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+h3{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 20px;
+}
+
+li{
+	color: black;
+	font-size: 15px;
+	font-family: 'Shantell Sans', cursive;
+	list-style: none;
+}
+
+li:before{
+	font-size: 20px;
+	color: green;
+	content: "\2713";
+	letter-spacing: 3px;
+}
